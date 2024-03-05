@@ -11,7 +11,7 @@ st.text('Question : ')
 st.text('Bagaimana perbedaan rata - rata penyewaan sepeda di akhir pekan jika dilihat')
 st.text('berdasarkan musim pada tahun pertama(2011)?')
 def hubungkan_csv():
-    all2_df = pd.read_csv("all_data2.csv")
+    all2_df = pd.read_csv("dashboard/all_data2.csv")
     return all2_df
 
 def bar_char(products_df):
