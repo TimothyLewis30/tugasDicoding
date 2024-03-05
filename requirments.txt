@@ -4,3 +4,4 @@ streamlit==1.31.1
 matplotlib==3.8.3
 seaborn==0.13.2
 Babel==2.14.0
+scipy==1.12.0
